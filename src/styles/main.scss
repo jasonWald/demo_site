@@ -1,0 +1,27 @@
+
+
+.main {
+    position: absolute;
+    height: 70vh;
+    top: 100vh;
+    width: 100vw;
+    .main-heading {
+        position: relative;
+        left: 10vw;
+        width: 60vw;
+        font-size: $heading;
+    }
+    .main-description {
+        position: relative;
+        width: 40vw;
+        left: 10vw;
+        font-size: $description;
+    }
+    .main-right {
+        position: relative;
+        top: 20vh;
+        width: 30vw;
+        float: right;
+        right: 10vw;
+    }
+}

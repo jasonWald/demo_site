@@ -1,0 +1,80 @@
+@import "./variables.scss";
+
+.hero {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    .header {
+        position: relative;
+        left: 82vw;
+        width: 10vw;
+        top: 20vh;
+    }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .hero {
+            position: absolute;
+            .header {
+                position: relative;
+                left: 30vw;
+            }
+        }
+        
+    }
+
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .hero {
+            position: absolute;
+            .header {
+                position: relative;
+                left: 30vw;
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    {
+        .hero {
+            position: absolute;
+            .header {
+                position: relative;
+                left: 30vw;
+            }
+        }
+    }
+    
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .hero {
+            position: absolute;
+            .header {
+                position: relative;
+                left: 30vw;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .hero {
+            position: absolute;
+            .header {
+                position: relative;
+                left: 30vw;
+            }
+        }
+    }

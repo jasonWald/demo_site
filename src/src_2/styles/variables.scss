@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Publica sans";
+    src: url(../assets/fonts/PublicaSans-Light.otf);
+}
+
+$font: 'Publica sans', sans-serif;
+$background: #e8e8e8;
+$heading: 4.5vw;
+$description: 1vw;
+$prime: #00FF80;
+$second: #0c1016;
+
+@mixin heading {
+    position: relative;
+    left: 10vw;
+    width: 60vw;
+    font-size: $heading;
+}
+
+@mixin sub-title {
+    position: relative;
+    width: 40vw;
+    left: 10vw;
+    font-size: $description;
+}

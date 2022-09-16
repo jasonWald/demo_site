@@ -1,0 +1,31 @@
+@import "./variables.scss";
+@import "./hero.scss";
+@import "./main.scss";
+@import "./motion.scss";
+@import "./demonstration.scss";
+@import "./technology.scss";
+@import "./navbar.scss";
+@import "./footer.scss";
+
+* {box-sizing: border-box;}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overscroll-behavior: none;
+    background: $background;
+    color: black;
+    font-family: $font;
+    font-feature-settings: "cv06" 1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

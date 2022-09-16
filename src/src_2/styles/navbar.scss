@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+.navbar {
+    position: absolute;
+    .navbar-container {
+        display: flex;
+        gap: 2em;
+        .logo-container {
+            img {
+                width: 3vw;
+                height: 3vw;
+            }
+        }
+        .navbar-text {
+            width: 20vw;
+            color: white;
+        }
+    }
+}

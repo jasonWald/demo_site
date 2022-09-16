@@ -1,0 +1,177 @@
+@import "./variables.scss";
+
+.motion {
+    position: absolute;
+    top: 280vh;
+    width: 100vw;
+    .heading {
+        @include heading;
+    }
+    .sub-title {
+        @include sub-title;
+    }
+    .motion-break-design-limit-container {
+        position: relative;
+        .left-break {
+            top: 40vh;
+            position: relative;
+            left: 10vw;
+            width: 60vw;
+            font-size: 6vw;
+            color: white;
+        }
+        .middle-design {
+            top: 40vh;
+            position: relative;
+            left: 40vw;
+            width: 60vw;
+            font-size: 6vw;
+            color: white;
+        }
+        .right-limits {
+            top: 40vh;
+            position: relative;
+            left: 80vw;
+            width: 60vw;
+            font-size: 6vw;
+            color: black;
+        }
+    }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    { 
+        .motion {
+            .heading {
+                font-size: 32px;
+                width: 80vw;
+            }
+            .sub-title {
+                font-size: 24px;
+                width: 80vw;
+            }
+            .motion-break-design-limit-container {
+                .left-break {
+                    font-size: 24px;
+                }
+                .middle-design {
+                    font-size: 24px;
+                }
+                .right-limit {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .motion {
+            .heading {
+                font-size: 32px;
+                width: 80vw;
+            }
+            .sub-title {
+                font-size: 24px;
+                width: 80vw;
+            }
+            .motion-break-design-limit-container {
+                .left-break {
+                    font-size: 24px;
+                }
+                .middle-design {
+                    font-size: 24px;
+                }
+                .right-limit {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    {
+        .motion {
+            .heading {
+                font-size: 32px;
+                width: 80vw;
+            }
+            .sub-title {
+                font-size: 24px;
+                width: 80vw;
+            }
+            .motion-break-design-limit-container {
+                .left-break {
+                    font-size: 24px;
+                }
+                .middle-design {
+                    font-size: 24px;
+                }
+                .right-limit {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .motion {
+            .heading {
+                font-size: 32px;
+                width: 80vw;
+            }
+            .sub-title {
+                font-size: 24px;
+                width: 80vw;
+            }
+            .motion-break-design-limit-container {
+                .left-break {
+                    font-size: 24px;
+                }
+                .middle-design {
+                    font-size: 24px;
+                }
+                .right-limit {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .motion {
+            .heading {
+                font-size: 32px;
+                width: 80vw;
+            }
+            .sub-title {
+                font-size: 24px;
+                width: 80vw;
+            }
+            .motion-break-design-limit-container {
+                .left-break {
+                    font-size: 24px;
+                }
+                .middle-design {
+                    font-size: 24px;
+                }
+                .right-limit {
+                    font-size: 24px;
+                }
+            }
+        }
+    }

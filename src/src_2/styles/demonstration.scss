@@ -1,0 +1,108 @@
+@import "./variables.scss";
+
+.demonstration {
+    position: absolute;
+    top: 450vh;
+    width: 100vw;
+    height: 100vh;
+    .short-project-description {
+        top: 10vh;
+        position: relative;
+        left: 20vw;
+        width: 10vw;
+        font-size: $description
+    }
+    .short-inspiration-description {
+        top: 70vh;
+        position: relative;
+        left: 10vw;
+        width: 20vw;
+        font-size: $description
+    }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .demonstration {
+            .short-project-description {
+                font-size: 24px;
+                left: 10vw;
+                width: 80vw;
+            }
+            .short-inspiration-description {
+                font-size: 24px;
+                width: 80vw;
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .demonstration {
+            .short-project-description {
+                font-size: 24px;
+                left: 10vw;
+                width: 80vw;
+            }
+            .short-inspiration-description {
+                font-size: 24px;
+                width: 80vw;
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    {
+        .demonstration {
+            .short-project-description {
+                font-size: 24px;
+                left: 10vw;
+                width: 80vw;
+            }
+            .short-inspiration-description {
+                font-size: 24px;
+                width: 80vw;
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .demonstration {
+            .short-project-description {
+                font-size: 24px;
+                left: 10vw;
+                width: 80vw;
+            }
+            .short-inspiration-description {
+                font-size: 24px;
+                width: 80vw;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .demonstration {
+            
+            .short-project-description {
+                font-size: 24px;
+                left: 10vw;
+                width: 80vw;
+            }
+            .short-inspiration-description {
+                font-size: 24px;
+                width: 80vw;
+            }
+        }
+      }

@@ -1,0 +1,160 @@
+@import "./variables.scss";
+
+.main {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 100vh;
+    .main-container {
+        position: relative;
+        .heading {
+            @include heading;
+        }
+        .sub-title {
+            @include sub-title;
+        }
+        .description {
+            position: relative;
+            top: 20vh;
+            width: 30vw;
+            float: right;
+            right: 10vw;
+        }
+    }
+}
+
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    { 
+        .main {
+            position: absolute;
+            .main-container {
+                width: 100%;
+                .heading {
+                    font-size: 32px;
+                    width: 80vw;
+                }
+                .sub-title {
+                    font-size: 24px;
+                    width: 80vw;
+                }
+                .description {
+                    top: 0vh;
+                    font-size: 24px;
+                    float: left;
+                    left: 10vw;
+                    width: 80vw;
+                }
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .main {
+            position: absolute;
+            .main-container {
+                width: 100%;
+                .heading {
+                    font-size: 32px;
+                    width: 80vw;
+                }
+                .sub-title {
+                    font-size: 24px;
+                    width: 80vw;
+                }
+                .description {
+                    top: 0vh;
+                    font-size: 24px;
+                    float: left;
+                    left: 10vw;
+                    width: 80vw;
+                }
+            }
+        }
+    }
+
+    @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    {
+        .main {
+            position: absolute;
+            .main-container {
+                width: 100%;
+                .heading {
+                    font-size: 32px;
+                    width: 80vw;
+                }
+                .sub-title {
+                    font-size: 24px;
+                    width: 80vw;
+                }
+                .description {
+                    top: 0vh;
+                    font-size: 24px;
+                    float: left;
+                    left: 10vw;
+                    width: 80vw;
+                }
+            }
+        }
+    }
+    
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    {
+        .main {
+            position: absolute;
+            .main-container {
+                width: 100%;
+                .heading {
+                    font-size: 32px;
+                    width: 80vw;
+                }
+                .sub-title {
+                    font-size: 24px;
+                    width: 80vw;
+                }
+                .description {
+                    top: 0vh;
+                    font-size: 24px;
+                    float: left;
+                    left: 10vw;
+                    width: 80vw;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .main {
+            position: absolute;
+            .main-container {
+                width: 100%;
+                .heading {
+                    font-size: 32px;
+                    width: 80vw;
+                }
+                .sub-title {
+                    font-size: 24px;
+                    width: 80vw;
+                }
+                .description {
+                    top: 0vh;
+                    font-size: 24px;
+                    float: left;
+                    left: 10vw;
+                    width: 80vw;
+                }
+            }
+        }
+    }
